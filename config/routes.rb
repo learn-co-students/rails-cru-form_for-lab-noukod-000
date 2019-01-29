@@ -12,7 +12,7 @@ Rails.application.routes.draw do
 
   get 'genres/update'
 
-  get 'genres/destroy'
+  # get 'genres/destroy'
 
   get 'genres/index'
 
@@ -26,7 +26,7 @@ Rails.application.routes.draw do
 
   get 'songs/update'
 
-  get 'songs/destroy'
+  # get 'songs/destroy'
 
   get 'songs/index'
 
@@ -40,7 +40,7 @@ Rails.application.routes.draw do
 
   get 'artists/update'
 
-  get 'artists/destroy'
+  # get 'artists/destroy'
 
   get 'artists/index'
 

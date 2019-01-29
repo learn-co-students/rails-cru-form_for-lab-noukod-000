@@ -11,8 +11,8 @@ class SongsController < ApplicationController
   def update
   end
 
-  def destroy
-  end
+  # def destroy
+  # end
 
   def index
   end
