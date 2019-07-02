@@ -1,0 +1,10 @@
+<%= form_for(@song) do |el| %>
+  <%= el.label :name %><br>
+  <%= el.text_field :name %> <br>
+  <%= el.label :artist_id %><br>
+  <%= el.text_field :artist_id %> <br>
+  <%= el.label :genre_id %><br>
+  <%= el.text_field :genre_id %> <br>
+  <%= el.submit %>
+
+<%end%>
